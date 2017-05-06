@@ -16,9 +16,10 @@ h1 {
 }
 
 h2{
-  font-size: 50;
-  margin-top:150px;
-
+  font-family: 'Microsoft JhengHei', sans-serif;
+  font-size: 25;
+  margin-top:140px;
+  margin-bottom:20px;
   text-align:center;
   color:#fff;
 }
