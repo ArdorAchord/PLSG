@@ -18,7 +18,6 @@ h1 {
 h2{
   font-size: 50;
   margin-top:150px;
-
   text-align:center;
   color:#fff;
 }
@@ -70,15 +69,19 @@ nav a {
 }
 
 .intro {
+  border-style: solid;
+  border-radius: 1%;
+  border-color: #333;
+  border-width: 9px;
   margin:2% 25%;
   width:50%;
-  height:250px;
+  height:300px;
   background:#FFF;
 }
 .intro img{
     display: block;
     margin: 10px;
-    height: 95%;
+    height: 92.5%;
     float:left;
 }
 nav li:hover {
