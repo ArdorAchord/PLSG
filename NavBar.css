@@ -12,7 +12,8 @@ body {
 h1 {
   margin:50px;
   text-align:center;
-  color:#fff;
+  color:#D93;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 h2{
