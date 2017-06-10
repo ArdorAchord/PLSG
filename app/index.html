@@ -1,0 +1,88 @@
+
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<link rel=stylesheet type="text/css" href="bttn.min.css">
+		<link rel=stylesheet type="text/css" href="LAB3.css">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+	</head>
+	<body background="https://img1.apk.tw/data/attachment/forum/201609/30/111015pwthotyvbqvnhwwk.jpg" style="background-repeat:no-repeat;background-attachment:scroll;background-position:center top">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/smoothness/jquery-ui.css" /> 
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<nav>
+		  <div class="row">
+		    <div class="rest">
+		      <i class="fa fa-bars"></i>
+		      <div class="text-menu">
+		        <div>
+		          <a href="#home">home</a>
+		          <ul>
+		            <li><a href="#about">as</a></li>
+		            <li><a href="#animate">as</a></li>
+		          </ul>
+		        </div>
+		        <span class="slash">/</span>
+		        <div>
+		          <a href="#">animate</a>
+		          <ul>
+		            <li><a href="#">a</a></li>
+		            <li><a href="#">b</a></li>
+		          </ul>
+		        </div>
+		        <span class="slash">/</span>
+		        <div><a href="#">wolala</a></div>
+		        <span class="slash">/</span>
+		        <div>
+		          <a href="#">pepe</a>
+		          <ul>
+		            <li><a href="#">av</a></li>
+		            <li><a href="#">av</a></li>
+		          </ul>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<script >
+			$(document).ready(function() {
+	    
+			    console.log('Document ready');
+
+			  	$('.fa-bars').click(function() {
+			        $('.text-menu').toggleClass('menu-appear');
+			    });
+
+			    $('nav .text-menu a').click(function() {
+			        $('.text-menu').toggleClass('menu-appear');
+			    });
+			    
+			});
+		</script>>
+		<div class>
+
+			<h2 class="red-text" 
+				style="margin-top: 3%;
+				margin-left: 40%;
+				font-size: 100px;">Illuminati</h2>
+			<a href="#"><img class="smaller-image thick-green-border" src="https://avatars3.githubusercontent.com/u/26220165?v=3&u=a78c3e259cd33cf999a9ea56e6672957094a7608&s=400" alt="A cute orange cat lying on its back. "></a>
+			
+			<div title="My Profile" id="anly1" style=" display: block; display: none;">
+				<h2>學校  /  科系</h2>
+				<p>輔仁大學  /  資訊工程學系</p>
+				<h2>名字  /  學號</h2>
+				<p>陳冠宇  /  403261211 </p>
+				<h2>相關  /  連結</h2>
+				<a href="https://www.facebook.com/profile.php?id=100002460128425"><img src="https://image.flaticon.com/icons/svg/33/33702.svg"  style="height:50px;"></a> 
+				&nbsp;&nbsp;
+				<a href="https://github.com/ArdorAchord"><img src="https://image.flaticon.com/icons/png/512/23/23957.png" style="height:50px;"></a>
+				&nbsp;&nbsp;
+				<a href="https://www.linkedin.com/in/%E5%86%A0%E5%AE%87-%E9%99%B3-abab19ab/"><img src="https://image.flaticon.com/icons/svg/61/61109.svg" style="height:50px;"></a>
+				
+			</div>
+			
+			<a href="javascript: $('#anly1').dialog({autoOpen: true, show:{effect:'blind', duration: 1000}, width: '640', height: 'auto', resizable: false});"><button class="bttn-unite bttn-md bttn-primary pos" >&nbsp;&nbsp;&nbsp;My Profile&nbsp;&nbsp;</button></a>
+		</div>	
+	</body>
+</html>
