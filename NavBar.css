@@ -17,12 +17,22 @@ h1 {
 
 h2{
   font-family: 'Microsoft JhengHei', sans-serif;
-  font-size: 25;
+  font-size: 30;
   margin-top:140px;
   margin-bottom:20px;
   text-align:center;
-  color:#fff;
+  color:#D93;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+h3{
+  font-family: 'Microsoft JhengHei', sans-serif;
+  font-size: 25;
+  text-align:center;
+  color: #D93;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 nav {
   width:100%;
   margin:50px 0px;
